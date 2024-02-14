@@ -22,5 +22,11 @@ function block_theme_costom_styles() {
 		[],
 		wp_get_theme()->get( 'Version' )
 	);
+	wp_enqueue_style(
+		'bootstrap',
+		get_template_directory_uri() . '/assets/css/bootstrap.min.css',
+		[],
+		'5.3.2'
+	);
 }
 add_action( 'wp_enqueue_scripts', 'block_theme_costom_styles' );
