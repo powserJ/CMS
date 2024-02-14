@@ -81,12 +81,12 @@
 				{
 					"name": "Serif",
 					"slug": "serif",
-					"fontFamily": "\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif"
+					"fontFamily": "'Cinzel', serif"
 				},
 				{
 					"name": "Monospace",
 					"slug": "monospace",
-					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
+					"fontFamily": "'Bebas Neue', sans-serif"				
 				}
 			],
 			"fontSizes": [
