@@ -1,0 +1,8 @@
+#modal-1-content{
+}
+
+#modal-1-content a{
+   text-decoration: none;
+   font-size: 20px;
+   font-family: var(--wp--preset--font-family--monospace) !important;
+}
