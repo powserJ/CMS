@@ -71,6 +71,7 @@ margin-bottom: 40px;
 
 .woocommerce-password-strength.bad {
    background-color: red !important;
+   padding: 2px ;
 }
 
 .woocommerce-breadcrumb {
