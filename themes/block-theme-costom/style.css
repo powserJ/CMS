@@ -30,3 +30,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+.entry-content.wp-block-post-content {
+	background-color: white;
+}

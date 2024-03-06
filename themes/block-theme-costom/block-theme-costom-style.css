@@ -30,3 +30,15 @@ text-decoration: none;
    align-items: center;
    gap: 50px;
 } */
+
+.entry-content.wp-block-post-content{
+   background-color: white;
+   color: black;
+   font-family: var(--wp--preset--font-family--monospace) !important;
+   
+}
+
+.entry-content.wp-block-post-content a{
+   color: black;
+   font-family: var(--wp--preset--font-family--monospace) !important;
+}

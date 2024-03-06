@@ -60,7 +60,9 @@ margin-bottom: 40px;
 
 .woocommerce-account .woocommerce-MyAccount-navigation li {
    padding-top: inherit!important;
+   font-family: var(--wp--preset--font-family--monospace) !important;
 }
+
 
 .woocommerce form .show-password-input, .woocommerce-page form .show-password-input {
    right: 32rem !important;
@@ -122,6 +124,11 @@ margin-bottom: 40px;
    border-radius: 20px;
 }
 
-.wp-block-post-title{
+h2.has-text-align-center.wp-block-post-title{
    display: none;
+}
+
+
+h1{
+   font-family: var(--wp--preset--font-family--monospace) !important;
 }
