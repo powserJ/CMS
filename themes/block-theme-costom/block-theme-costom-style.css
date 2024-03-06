@@ -6,3 +6,27 @@
    font-size: 20px;
    font-family: var(--wp--preset--font-family--monospace) !important;
 }
+
+/* .woocommerce-MyAccount-navigation{
+   background-color: white;
+} */
+
+.woocommerce-MyAccount-navigation a{
+text-decoration: none;
+}
+/* 
+.woocommerce-MyAccount-content{
+   background-color: white;
+} */
+/* .entry-content wp-block-post-content{
+   background-color: white;
+} */
+
+/* .woocommerce-account .woocommerce-MyAccount-navigation ul{
+   list-style: none;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+} */
