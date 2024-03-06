@@ -70,3 +70,46 @@ margin-bottom: 40px;
 .woocommerce-password-strength.bad {
    background-color: red !important;
 }
+
+.wp-block-woocommerce-cart{
+   background-color: white;
+   color: black;
+   padding: 20px;
+}
+
+.wp-block-woocommerce-cart a{
+   color: black;
+}
+
+.wc-block-cart__submit-container a{
+   color: white;
+}
+
+.wc-block-components-product-metadata{
+   display: none;
+}
+
+/* .wc-block-components-product-badge .wc-block-components-sale-badge{
+   margin-bottom: 20px;
+} */
+
+.wc-block-cart-item__quantity{
+   margin-top: 20px;
+}
+
+.wc-block-cart-item__image img{
+   width: 200px !important;
+   height: 200px !important;
+   padding: 10px;
+   max-width: fit-content !important;
+}
+
+.wc-block-cart-item__total{
+   display: none;
+}
+
+.wc-block-cart-items__header-total{
+   display: none;
+}
+
+
