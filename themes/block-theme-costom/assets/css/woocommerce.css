@@ -92,6 +92,10 @@ a.added_to_cart.wc_forward{
    display: none;
 }
 
+.wc-block-cart-item__wrap a {
+   text-decoration: none;
+}
+
 .woocommerce-breadcrumb {
    display: none;
 }
