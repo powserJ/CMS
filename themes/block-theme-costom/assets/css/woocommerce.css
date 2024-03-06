@@ -75,6 +75,8 @@ margin-bottom: 40px;
    background-color: white;
    color: black;
    padding: 20px;
+   border: 1px solid white;
+   border-radius: 20px;
 }
 
 .wp-block-woocommerce-cart a{
@@ -112,4 +114,14 @@ margin-bottom: 40px;
    display: none;
 }
 
+.wp-block-woocommerce-checkout{
+   background-color: white;
+   color: black;
+   padding: 20px;
+   border: 1px solid white;
+   border-radius: 20px;
+}
 
+.wp-block-post-title{
+   display: none;
+}

@@ -31,3 +31,13 @@ function block_theme_costom_styles() {
 }
 add_action('wp_enqueue_scripts', 'block_theme_costom_styles');
 
+function block_theme_costom_scripts() {
+	wp_enqueue_script(
+		 'costomscripts',
+		 get_template_directory_uri() . '/assets/js/costomscript.js',
+		 array('jquery'), // Include jQuery if needed
+		 wp_get_theme()->get('Version'),
+		 true // Load the script in the footer
+	);
+}
+add_action('wp_enqueue_scripts', 'block_theme_costom_scripts');
