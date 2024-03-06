@@ -88,6 +88,10 @@ h3 a{
    width: 300px;
 }
 
+a.added_to_cart.wc_forward{
+   display: none;
+}
+
 .woocommerce-breadcrumb {
    display: none;
 }
