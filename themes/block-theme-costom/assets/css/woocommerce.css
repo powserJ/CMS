@@ -1,0 +1,42 @@
+.logged-in.woocommerce-account .entry-content .woocommerce {
+background-color: white;
+padding: 20px;
+color: black;
+border: 1px solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.woocommerce-MyAccount-navigation li a {
+   color: black;
+}
+
+.woocommerce-MyAccount-content a{
+   color: black;
+}
+
+.woocommerce-MyAccount-navigation ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.woocommerce-MyAccount-navigation {
+   width: 100% !important;
+   float: none !important;
+}
+
+.woocommerce-MyAccount-content {
+   width: 100% !important;
+   float: none !important;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li:first-child {
+   padding-top: inherit !important;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li {
+   padding-top: inherit!important;
+}
