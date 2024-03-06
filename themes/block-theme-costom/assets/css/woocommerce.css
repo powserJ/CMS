@@ -8,6 +8,21 @@ display: flex;
 flex-direction: column;
 }
 
+/* .logged-in.woocommerce-account .entry-content .woocommerce p {
+margin-top: 20px;
+margin-bottom: 40px;
+} */
+
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-EditAccountForm p{
+ font-size: 18px;
+ display: flex;
+ flex-direction: column;
+}
+
+.logged-in.woocommerce-account .entry-content .woocommerce .woocommerce-EditAccountForm input{
+ width: 400px;
+ height: 30px;
+}
 .woocommerce-MyAccount-navigation li a {
    color: black;
 }
@@ -33,10 +48,25 @@ flex-direction: column;
    float: none !important;
 }
 
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm {
+   width: 100% !important;
+   float: none !important;
+
+}
+
 .woocommerce-account .woocommerce-MyAccount-navigation li:first-child {
    padding-top: inherit !important;
 }
 
 .woocommerce-account .woocommerce-MyAccount-navigation li {
    padding-top: inherit!important;
+}
+
+.woocommerce form .show-password-input, .woocommerce-page form .show-password-input {
+   right: 32rem !important;
+   top: 0rem !important;
+}
+
+.woocommerce-password-strength.bad {
+   background-color: red !important;
 }
