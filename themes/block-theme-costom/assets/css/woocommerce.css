@@ -74,6 +74,10 @@ margin-bottom: 40px;
    padding: 2px ;
 }
 
+h3 a{
+   text-decoration: none;
+}
+
 .woocommerce-breadcrumb {
    display: none;
 }
