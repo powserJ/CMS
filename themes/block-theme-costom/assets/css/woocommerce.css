@@ -64,10 +64,10 @@ margin-bottom: 40px;
 }
 
 
-.woocommerce form .show-password-input, .woocommerce-page form .show-password-input {
+/* .woocommerce form .show-password-input, .woocommerce-page form .show-password-input {
    right: 32rem !important;
    top: 0rem !important;
-}
+} */
 
 .woocommerce-password-strength.bad {
    background-color: red !important;
@@ -134,5 +134,17 @@ h1{
 }
 
 .wc-block-components-button__text{
-   color: white;
+   color: black;
+}
+
+.wp-element-button, .wp-block-button__link{
+   background-color: white;
+   color: black;
+}
+
+#customer_login{
+   background: white;
+   padding:20px;
+   border: 1px solid white;
+   border-radius: 20px;
 }
