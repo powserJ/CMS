@@ -132,3 +132,7 @@ h2.has-text-align-center.wp-block-post-title{
 h1{
    font-family: var(--wp--preset--font-family--monospace) !important;
 }
+
+.wc-block-components-button__text{
+   color: white;
+}
