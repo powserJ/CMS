@@ -40,3 +40,10 @@ text-decoration: none;
    color: black;
    font-family: var(--wp--preset--font-family--monospace) !important;
 }
+
+
+img.wp-block-cover__image-background:hover{
+   opacity: .5;
+   cursor: pointer;
+
+}

@@ -34,3 +34,7 @@ body {
 .entry-content.wp-block-post-content {
 	background-color: white;
 }
+
+.wp-block-column .wp-block-cover :hover{
+	opacity: 0.5;
+}
