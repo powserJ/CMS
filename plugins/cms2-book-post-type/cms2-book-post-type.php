@@ -45,7 +45,7 @@ function cms2_register_post_type() {
    $args = array(
 
       'labels'                => $labels,
-      'description'           => __( 'organize and manage company Books', 'cms2' ),
+      'description'           => __( 'organize and manage company books', 'cms2' ),
       'public'                => false,
       'hierarchical'          => false,
       'exclude_from_search'   => true,
@@ -59,7 +59,7 @@ function cms2_register_post_type() {
       'menu_icon'             => 'dashicons-book',
       'capability_type'       => 'post',
       'capabilities'          => array(),
-      'supports'              => array( 'title', 'editor', 'revisions' ),
+      'supports'              => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', 'post-formats' ),
       'taxonomies'            => array(),
       'has_archive'           => false,
       'rewrite'               => array( 'slug' => 'books' ),
@@ -71,4 +71,4 @@ function cms2_register_post_type() {
    );
    register_post_type( 'cms2_book', $args );
 }
-add_action( 'init', 'cms2-register-post-type' );
+add_action( 'init', 'cms2_register_post_type' );
