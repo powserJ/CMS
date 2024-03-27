@@ -1,16 +1,24 @@
-#modal-1-content{
-}
+/* #modal-1-content{
+} */
 
+/* ! Set the header navs Look, Size, and Font. */
 #modal-1-content a{
    text-decoration: none;
    font-size: 20px;
    font-family: var(--wp--preset--font-family--monospace) !important;
 }
 
+/* ! Set the background color and typography for the home page product cards */
+.entry-content.wp-block-post-content {
+	background-color: white;
+   color: black;
+   font-family: var(--wp--preset--font-family--monospace) !important;
+}
 /* .woocommerce-MyAccount-navigation{
    background-color: white;
 } */
 
+/* ! Set the  Look of the woo commerce nav links*/
 .woocommerce-MyAccount-navigation a{
 text-decoration: none;
 }
@@ -30,22 +38,18 @@ text-decoration: none;
    align-items: center;
    gap: 50px;
 } */
-
-.entry-content.wp-block-post-content{
-   color: black;
-   font-family: var(--wp--preset--font-family--monospace) !important;
-}
-
+/* ! Disabling grid within the cart to bypass aligment issues  */
 .wc-block-cart-items__row{
    grid-template-columns: none !important;
 }
 
+/* ! Set the look of the cart items typography */
 .entry-content.wp-block-post-content a{
    color: black;
    font-family: var(--wp--preset--font-family--monospace) !important;
 }
 
-
+/* ! Set the hover for the home page product cards  */
 img.wp-block-cover__image-background:hover{
    opacity: .5;
    cursor: pointer;
