@@ -10,13 +10,20 @@
 
 /* ! Set the background color and typography for the home page product cards */
 .entry-content.wp-block-post-content {
-	background-color: white;
    color: black;
    font-family: var(--wp--preset--font-family--monospace) !important;
 }
 /* .woocommerce-MyAccount-navigation{
    background-color: white;
 } */
+
+
+/* ! Set post date text to white */
+.wp-block-post-date{
+   color: white;
+   font-family: var(--wp--preset--font-family--monospace) !important;
+}
+
 
 /* ! Set the  Look of the woo commerce nav links*/
 .woocommerce-MyAccount-navigation a{
@@ -45,7 +52,6 @@ text-decoration: none;
 
 /* ! Set the look of the cart items typography */
 .entry-content.wp-block-post-content a{
-   color: black;
    font-family: var(--wp--preset--font-family--monospace) !important;
 }
 
